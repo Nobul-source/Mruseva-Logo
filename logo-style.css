@@ -446,13 +446,22 @@ ul ul {
     margin-block: 2rem;
 }
 
+
+.image img {
+    max-width: 100%;
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
+     
+}
+
 .work {
     position: relative;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(13, 138, 216, 0.2);
     transition: transform 0.3s ease;
-    border: 2px solid snow;
+    
 }
 
 .work:hover {
@@ -464,6 +473,7 @@ ul ul {
     height: auto;
     border-radius: 20px;
     transition: transform 0.5s ease;
+    border: 2px solid snow;
 }
 
 .layer {
@@ -496,7 +506,7 @@ ul ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .layer h3 {
