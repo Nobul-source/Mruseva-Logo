@@ -587,14 +587,12 @@ ul ul {
 }
 
 .contact-left .sub-title {
-    font-size: 1.8rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .contact-left p {
     color: rgba(255, 255, 255, 0.9);
-    font-size: 1.2rem;
-    margin: 1.5rem 0;
+    margin: 1.2rem 0;
     display: flex;
     align-items: center;
 }
@@ -607,7 +605,7 @@ ul ul {
 }
 
 .social-icons {
-    margin: 2rem 0;
+    
     display: flex;
     gap: 1rem;
 }
@@ -618,20 +616,24 @@ ul ul {
     justify-content: center;
     width: 50px;
     height: 50px;
-    background: rgba(255, 255, 255, 0.1);
     color: #ffffff;
     text-decoration: none;
-    border-radius: 50%;
     font-size: 1.5rem;
     transition: all 0.3s ease;
+    margin: 0.8rem 0;
     border: 2px solid transparent;
 }
 
 .social-icons a:hover {
-    background: #0FB2F2;
+    /*background: #0FB2F2;*/
     color: #ffffff;
     transform: translateY(-3px);
-    box-shadow: 0 8px 20px rgba(13, 138, 216, 0.3);
+    /*box-shadow: 0 8px 20px rgba(13, 138, 216, 0.3);*/
+}
+
+.contact-left .btn.btn2 {
+    margin-top: 1rem;
+    display: inline-block;
 }
 
 /* Contact Form */
@@ -650,7 +652,7 @@ form textarea {
     padding: 1rem;
     border-radius: 10px;
     color: #0D8BD9;
-    font-size: 1rem;
+    font-size: 0.8rem;
     transition: all 0.3s ease;
     border: 2px solid transparent;
 }
@@ -670,9 +672,10 @@ form textarea {
 .btn.btn2 {
     background: linear-gradient(135deg, #0D8BD9, #0FB2F2);
     color: #ffffff;
-    padding: 1rem 2rem;
+    padding: 1rem 1.5rem;
     border: none;
-    border-radius: 50px;
+    border-radius: 0.8rem;
+    text-decoration: none;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -685,6 +688,10 @@ form textarea {
     color: #0D8BD9;
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(13, 138, 216, 0.4);
+}
+
+.btn2 {
+    font-size: 0.8rem;
 }
 
 /* Footer */
