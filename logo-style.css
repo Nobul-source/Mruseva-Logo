@@ -444,6 +444,7 @@ ul ul {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     margin-block: 2rem;
+    align-items: stretch;
 }
 
 
@@ -461,6 +462,7 @@ ul ul {
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(13, 138, 216, 0.2);
     transition: transform 0.3s ease;
+    height: 100%;
     
 }
 
@@ -498,6 +500,15 @@ ul ul {
     height: 100%;
 }
 
+
+.work:nth-child(3) {
+    height: 337px;       
+    overflow: hidden;      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .work:hover img {
     transform: scale(1.1);
 }
@@ -509,17 +520,29 @@ ul ul {
 
 }
 
+.work:nth-child(3) img {
+    max-width: 100%;
+    max-height: 100%;   
+    height: auto;
+      
+}
+
 .layer h3 {
     color: #ffffff;
     font-weight: 700;
     margin-bottom: 1rem;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    line-height: 1.2;
 }
 
 .layer p {
     color: rgba(255, 255, 255, 0.9);
     line-height: 1.6;
-    margin-bottom: 1.5rem;
+    margin-block: 0.8rem;
+    padding: 0 1.2rem;
+    text-align: justify;
+    hyphens: auto;
+    font-size: 0.8rem;
 }
 
 .layer a {
@@ -542,6 +565,11 @@ ul ul {
     color: #ffffff;
     transform: scale(1.1);
     box-shadow: 0 8px 25px rgba(255, 255, 255, 0.4);
+}
+
+.layer a i {
+    text-align: right;
+    font-size: 1.2rem;
 }
 
 /* Contacts Section */
@@ -664,7 +692,7 @@ footer {
     display: flex;
     justify-content: space-between;
     backdrop-filter: blur(20px);
-    margin-top: 1.5rem;
+    margin: 1.5rem 2rem 0 2rem;
     padding: 1.5rem;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
