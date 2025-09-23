@@ -478,6 +478,8 @@ ul ul {
     border-radius: 20px;
     transition: transform 0.5s ease;
     border: 2px solid snow;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
 }
 
 .layer {
