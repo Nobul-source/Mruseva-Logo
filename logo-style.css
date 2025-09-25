@@ -1057,7 +1057,7 @@ label[for=nav-toggle] {
     }
     
     .logo {
-        height: 50vh;
+        min-height: 50vh;
         background-size: 70%;
     }
     
@@ -1419,7 +1419,7 @@ label[for=nav-toggle] {
 }
 
 html, body {
-
+     height: 100%;
     overflow-x: hidden !important;
     max-width: 100vw;
 }
