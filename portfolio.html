@@ -28,8 +28,8 @@
     "@context": "http://schema.org",
     "@type": "CreativeWork",
     "name": "Портфолио на Марчела Русева",
-    "url": "https://mruseva.netlify.app/portfolio",
-    "image": "https://mruseva.netlify.app/images/og/portfolio-og.jpg",
+    "url": "https://mruseva-logo.netlify.app/portfolio",
+    "image": "https://mruseva-portfolio.netlify.app/images/og/portfolio-og.jpg",
     "description": "Уеб дизайн, SEO и дигитални проекти, създадени от Марчела Русева.",
     "creator": {
       "@type": "Person",
@@ -66,9 +66,9 @@
             <li><a href="./services.html"><i class="fa-solid fa-suitcase"></i>Услуги</a></li>
             <li><a href="./portfolio.html"><i class="fa-solid fa-folder-open"></i>Портфолио</a></li>
             <li><a href="./contacts.html"><i class="fa-solid fa-address-book"></i>Контакти</a></li>
-            <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+           <i id="menu-close" class="fa-solid fa-square-xmark hidden" onclick="closemenu()"></i>
         </ul>
-        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        <i id="menu-open" class="fa-solid fa-bars" onclick="openmenu()"></i>
 
     </nav>
     </header>
@@ -180,20 +180,29 @@
         }
     </script>
 
-        <script>
+       <script>
 
         var sidemenu = document.getElementById("sidemenu");
 
-        function openmenu(){
-            sidemenu.style.right = "0";
-        }
+     function openmenu() {
+    sidemenu.style.right = "0";
+    sidemenu.style.visibility = "visible";
 
-        function closemenu(){
-            sidemenu.style.right = "-15em";
-        }
+    document.getElementById("menu-open").classList.add("hidden");
+    document.getElementById("menu-close").classList.remove("hidden");
+}
 
-        
+       function closemenu() {
+    sidemenu.style.right = "-100vw";
+    sidemenu.style.visibility = "hidden";
+
+    document.getElementById("menu-close").classList.add("hidden");
+    document.getElementById("menu-open").classList.remove("hidden");
+}
+
+
     </script>
+
 </body>
 
 </html>
