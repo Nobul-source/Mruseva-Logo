@@ -103,7 +103,7 @@ nav .fa-bars {
     transition: all 0.3s ease;
 }
 
-#menu-open {
+/* #menu-open {
   display: block;
   position: fixed;
   top: 1.5rem;
@@ -124,7 +124,7 @@ nav .fa-bars {
   z-index: 1001;
   cursor: pointer;
   transition: opacity 0.3s ease, transform 0.3s ease;
-}
+} */
 
 .hidden {
   opacity: 0;
