@@ -1017,6 +1017,10 @@ label[for=nav-toggle] {
         transition: right 0.8s ease;
         z-index: 1000;
     }
+
+    #menu-close {
+    display: none; /* ← добави това */
+  }
     
     nav .fa-square-xmark,
     nav .fa-bars {
