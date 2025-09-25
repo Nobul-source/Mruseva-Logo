@@ -63,9 +63,10 @@
             <li><a href="./services.html"><i class="fa-solid fa-suitcase"></i>Услуги</a></li>
             <li><a href="./portfolio.html"><i class="fa-solid fa-folder-open"></i>Портфолио</a></li>
             <li><a href="./contacts.html"><i class="fa-solid fa-address-book"></i>Контакти</a></li>
-            <i id="menu-close" class="fa-solid fa-square-xmark hidden" onclick="closemenu()"></i>
         </ul>
-        <i id="menu-open" class="fa-solid fa-bars" onclick="openmenu()"></i>
+          <i class="fa-solid fa-bars" id="menu-open"></i>
+          <i class="fa-solid fa-square-xmark hidden" id="menu-close"></i>
+		
 
     </nav>
  
@@ -119,8 +120,27 @@
 
         }
     </script>
+
+
+	<script>
+    const menuOpen = document.getElementById("menu-open");
+    const menuClose = document.getElementById("menu-close");
+    const navUl = document.querySelector("nav ul");
+
+    menuOpen.addEventListener("click", () => {
+        navUl.style.right = "0";
+        menuOpen.classList.add("hidden");
+        menuClose.classList.remove("hidden");
+    });
+
+    menuClose.addEventListener("click", () => {
+        navUl.style.right = "-100%";
+        menuOpen.classList.remove("hidden");
+        menuClose.classList.add("hidden");
+    });
+</script>
     
-    <script>
+    <!-- <script>
 
         var sidemenu = document.getElementById("sidemenu");
 
@@ -141,7 +161,7 @@
 }
 
 
-    </script>
+    </script> -->
 
 </body>
 </html>
