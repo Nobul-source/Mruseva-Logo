@@ -1018,9 +1018,6 @@ label[for=nav-toggle] {
         z-index: 1000;
     }
 
-    #menu-close {
-    display: none; /* ← добави това */
-  }
     
     nav .fa-square-xmark,
     nav .fa-bars {
