@@ -1059,6 +1059,10 @@ label[for=nav-toggle] {
         margin-right: 0.8rem;
         font-size: 1rem;
     }
+
+    #sidemenu {
+        min-height:100dvh;
+    }
     
     .logo {
         min-height: 50vh;
