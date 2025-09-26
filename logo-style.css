@@ -179,7 +179,7 @@ nav .fa-square-xmark:hover {
 /* Main Content */
 section {
     margin-top: -1.5rem;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
     padding: 0 1.5rem;
 }
 
