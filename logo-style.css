@@ -1426,6 +1426,7 @@ html, body {
 
 nav ul {
     overflow-x: hidden;
+    overflow: hidden;
     max-width: 100vw;
 }
 
