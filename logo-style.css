@@ -150,12 +150,12 @@ nav .fa-square-xmark:hover {
     justify-content: center;
     align-items: center;
     width: 100%;
-     min-height: 300px;
+     /* min-height: 300px;
     height: clamp(480px, 50vh, 600px);
-    background-size: contain;
-    /* height: 60vh; */
+    background-size: contain; */
+    height: 60vh;
     background-image: url(images/LogoDW.svg);
-    /* background-size: clamp(55%, 45vw, 80%); */
+    background-size: clamp(55%, 45vw, 80%);
     background-position: center;
     background-repeat: no-repeat;
     /*opacity: 0.15;*/
