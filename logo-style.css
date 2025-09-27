@@ -72,7 +72,6 @@ nav ul li a {
 
 
 nav ul li a::after {
-    display:block;
     content: '';
     width: 0;
     height: 3px;
@@ -150,9 +149,6 @@ nav .fa-square-xmark:hover {
     justify-content: center;
     align-items: center;
     width: 100%;
-     /* min-height: 300px;
-    height: clamp(480px, 50vh, 600px);
-    background-size: contain; */
     height: 60vh;
     background-image: url(images/LogoDW.svg);
     background-size: clamp(55%, 45vw, 80%);
@@ -1058,10 +1054,6 @@ label[for=nav-toggle] {
     nav ul li a .fa-solid {
         margin-right: 0.8rem;
         font-size: 1rem;
-    }
-
-    #sidemenu {
-        min-height:100dvh;
     }
     
     .logo {
