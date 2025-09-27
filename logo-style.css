@@ -1030,8 +1030,9 @@ label[for=nav-toggle] {
     nav .fa-square-xmark,
     nav .fa-bars {
         display: block;
-        font-size: 3rem;
+        font-size: 2rem;
         z-index: 1001;
+    
     }
     
     nav .fa-square-xmark {
@@ -1059,6 +1060,10 @@ label[for=nav-toggle] {
         background: rgba(255, 255, 255, 0.2);
         transform: translateY(-2px);
     }
+
+    nav ul li a img {
+        width:5rem;
+    }
     
     nav ul li a .fa-solid {
         margin-right: 0.8rem;
@@ -1067,7 +1072,7 @@ label[for=nav-toggle] {
     
     .logo {
         min-height: 50vh;
-        background-size: 100%;
+        background-size: 80%;
     }
     
     .headline {
@@ -1168,7 +1173,7 @@ label[for=nav-toggle] {
         flex-direction: column;
         text-align: center;
         gap: 1rem;
-        padding: 1rem;
+        padding: 1.5rem;
     }
     
     .footer ul {
@@ -1375,6 +1380,12 @@ label[for=nav-toggle] {
 @media (max-width: 360px) {
     .headline {
         font-size: clamp(1.3rem, 3vw, 1.7rem);
+    }
+
+    .logo {
+        height: 40vh;
+        background-size: 100%;
+        margin: 0.5rem 0;
     }
     
     .subheading {
