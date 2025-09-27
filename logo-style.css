@@ -1367,6 +1367,10 @@ label[for=nav-toggle] {
         height: 35px;
         font-size: 1.3rem;
     }
+
+    .footer ul li a i {
+        color: whitesmoke;
+    }
     
     .copywright {
         padding: 1rem;
