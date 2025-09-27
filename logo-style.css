@@ -1067,7 +1067,7 @@ label[for=nav-toggle] {
     
     .logo {
         min-height: 50vh;
-        background-size: 70%;
+        background-size: 100%;
     }
     
     .headline {
