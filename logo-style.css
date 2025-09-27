@@ -1246,7 +1246,7 @@ label[for=nav-toggle] {
     .sub-title {
         font-size: clamp(1.4rem, 3vw, 1.8rem);
         padding: 0.6rem 1rem;
-        margin-bottom: 3rem;
+        margin-bottom: 2.5rem;
     }
     
     .tab-titles {
