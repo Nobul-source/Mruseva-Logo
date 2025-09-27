@@ -79,7 +79,7 @@ nav ul li a::after {
     background: linear-gradient(115deg,#0D8BD9, #0FB2F2, #FFEDE5);
     position: absolute;
     left: 0;
-    bottom: -6px;
+    bottom: 0;
     transition: 0.5s;
 
 }
