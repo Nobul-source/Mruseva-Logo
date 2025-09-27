@@ -1159,6 +1159,10 @@ label[for=nav-toggle] {
     justify-content: center;
         flex-wrap: wrap;
     }
+
+     footer {
+        padding:0;
+    }
     
     .footer {
         flex-direction: column;
@@ -1338,6 +1342,10 @@ label[for=nav-toggle] {
         padding: 0.8rem 1.5rem;
         font-size: 0.9rem;
         border-radius: 0.8rem;
+    }
+
+    footer {
+        padding:0;
     }
     
     .footer {
