@@ -1052,7 +1052,7 @@ label[for=nav-toggle] {
     }
 
      nav ul li a::after {
-    display: none !important;
+    content:none;
   }
     
     nav ul li a:hover {
