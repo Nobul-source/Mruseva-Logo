@@ -103,28 +103,7 @@ nav .fa-bars {
     transition: all 0.3s ease;
 }
 
-/* #menu-open {
-  display: block;
-  position: fixed;
-  top: 1.5rem;
-  right: 1.5rem;
-  font-size: 2rem;
-  color: white;
-  z-index: 1001;
-  cursor: pointer;
-  transition: opacity 0.3s ease, transform 0.3s ease;
-}
 
-#menu-close {
-  position: fixed;
-  top: 1.5rem;
-  right: 1.5rem;
-  font-size: 2rem;
-  color: white;
-  z-index: 1001;
-  cursor: pointer;
-  transition: opacity 0.3s ease, transform 0.3s ease;
-} */
 
 .hidden {
   opacity: 0;
@@ -290,7 +269,7 @@ section {
     margin-bottom: 1.5rem;
     border-radius: 15px;
     text-shadow: 0 2px 4px rgba(13, 138, 216, 0.3);
-    box-shadow: 0 4px 15px rgba(13, 138, 216, 0.2);
+    box-shadow: 1px 0px 2px 0px rgba(255, 255, 255, 0.2);
 }
 
 .about-col-1 {
@@ -335,7 +314,7 @@ section {
     left: 0;
     width: 0;
     height: 3px;
-    background: linear-gradient(275deg, #0FB2F2, #BDE3F2);
+    background: linear-gradient(275deg, #0FB2F2, #0D8BD9);
     transition: width 0.3s ease;
     border-radius: 2px;
 }
@@ -740,7 +719,7 @@ footer {
     justify-content: space-between;
     backdrop-filter: blur(20px);
     /* margin: 1.5rem 2rem 0 2rem; */
-    padding: 1.5rem;
+    padding: 1.5rem 3.5rem;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
